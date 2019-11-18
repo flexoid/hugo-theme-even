@@ -66,6 +66,12 @@ outdatedInfoWarningBefore:
 outdatedInfoWarningAfter:
   other: ". This article may have outdated content or subject matter."
 
+seriesTitle:
+  other: This is a post in the %s series.
+
+seriesOtherPosts:
+  other: All posts in this series
+
 # ===== content license =====
 author:
   other: "Author"

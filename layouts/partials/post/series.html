@@ -1,0 +1,30 @@
+{{ if .Params.series }}
+  {{ $name := index .Params.series 0 }}
+
+  <p>
+    {{ printf (T "seriesTitle") (printf "<b>%s</b>" $name) | safeHTML }}<br/>
+    {{ T "seriesOtherPosts" }}:
+  </p>
+
+  {{ $series := index .Site.Taxonomies.series ($name | anchorize) }}
+
+  <section id="archive" class="archive">
+    {{ range $series.Pages.ByDate }}
+      <div class="archive-post">
+        <span class="archive-post-time">
+          {{ .Date.Format (.Site.Params.dateFormatToUse | default "2006-01-02") }}
+        </span>
+
+        <span class="archive-post-title">
+          {{ if eq $.RelPermalink .RelPermalink -}}
+            {{ .Title }}
+          {{- else -}}
+            <a href="{{ .RelPermalink }}" class="archive-post-link">
+              {{ .Title }}
+            </a>
+          {{- end }}
+        </span>
+      </div>
+    {{end}}
+  </section>
+{{end}}

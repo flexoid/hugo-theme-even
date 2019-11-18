@@ -42,6 +42,8 @@
     {{- partial "post/reward.html" . -}}
 
     <footer class="post-footer">
+      {{- partial "post/series.html" . -}}
+
       {{ with .Params.tags -}}
         <div class="post-tags">
           {{ range . -}}
