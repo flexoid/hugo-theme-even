@@ -1,0 +1,111 @@
+# ===== title =====
+archive:
+  other: "Архив"
+
+tags:
+  other: "Теги"
+
+categories:
+  other: "Темы"
+
+# ===== footer =====
+powered:
+  other: "Powered by %s"
+
+theme:
+  other: "Theme"
+
+siteUV:
+  other: "site uv: %s"
+
+sitePV:
+  other: "site pv: %s"
+
+pagePV:
+  other: "%s times read"
+
+# ===== post =====
+prevPage:
+  other: "Назад"
+
+nextPage:
+  other: "Дальше"
+
+prevPost:
+  other: "Предыдущий"
+
+nextPost:
+  other: "Следующий"
+
+toc:
+  other: "Содержание"
+
+readMore:
+  other: "Читать дальше..."
+
+reward:
+  other: "Reward"
+
+rewardAlipay:
+  other: "alipay"
+
+rewardWechat:
+  other: "wechat"
+
+wordCount:
+  one: "{{ .Count }} слово"
+  few: "{{ .Count }} слова"
+  many: "{{ .Count }} слов"
+
+readingTime:
+  other: "{{ .Count }} мин. на прочтение"
+
+outdatedInfoWarningBefore:
+  other: "[NOTE] Updated "
+
+outdatedInfoWarningAfter:
+  other: ". This article may have outdated content or subject matter."
+
+seriesTitle:
+  other: Эта заметка из цикла %s.
+
+seriesOtherPosts:
+  other: Все посты цикла
+
+# ===== content license =====
+author:
+  other: "Author"
+
+lastMod:
+  other: "LastMod"
+
+markdown:
+  other: "Markdown"
+
+seeMarkDown:
+  other: "The Markdown version »"
+
+license:
+  other: "License"
+
+# ===== counter =====
+archiveCounter:
+  one: "{{ .Count }} пост"
+  few: "{{ .Count }} поста"
+  many: "{{ .Count }} постов"
+
+tagCounter:
+  one: "{{ .Count }} тег"
+  few: "{{ .Count }} тега"
+  many: "{{ .Count }} тегов"
+
+zeroTagCounter:
+  other: "Нет тегов"
+
+categoryCounter:
+  one: "{{ .Count }} тема"
+  few: "{{ .Count }} темы"
+  many: "{{ .Count }} тем"
+
+zeroCategoryCounter:
+  other: "Нет тем"
